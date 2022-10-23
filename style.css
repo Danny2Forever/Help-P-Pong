@@ -1,0 +1,67 @@
+body{
+    background-color: black;
+}
+
+#title {
+    display: flex;
+    margin: 0 auto 0 auto;
+    background-size: cover;
+    width: 100 vw;
+    font-size: 8vw;
+    color: #FBB536;
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+}
+
+#ndtitle {
+    display: flex;
+    margin: 0 auto 0 auto;
+    background-size: cover;
+    width: 100 vw;
+    font-size: 2vw;
+    color: #FBB536;
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+}
+
+#logo {
+    text-align: center;
+}
+
+#logo img{
+    height: 30vh;
+}
+
+.song_div {
+    display: flex;
+    width: 50vw;
+    height: 6vw;
+    background-color: #fff;
+    color: black;
+    margin: 0 auto 1vw auto;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 5vh;
+}
+.song {
+    display: inline-block;
+    font-family: 'Staatliches', cursive;
+    font-size: 2vw;
+
+}
+
+#maiarjtum:hover {
+    background-color: #36BFF4;
+    color: #D11149;
+}
+#maiarjpen:hover {
+    background-color: #D11149;
+    color: #36BFF4;
+}
+#haihategarn:hover {
+    background-color:#FBB536;
+    color: #D11149;
+}
