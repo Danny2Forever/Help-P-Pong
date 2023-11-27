@@ -7,7 +7,7 @@ body{
     margin: 0 auto 0 auto;
     background-size: cover;
     width: 100 vw;
-    font-size: 8vw;
+    font-size: 5vw;
     color: #FBB536;
     align-items: center;
     justify-content: center;
@@ -36,11 +36,11 @@ body{
 
 .song_div {
     display: flex;
-    width: 50vw;
-    height: 6vw;
+    width: 45vw;
+    height: 5.5vw;
     background-color: #fff;
     color: black;
-    margin: 0 auto 1vw auto;
+    margin: 0 auto 0.5vw auto;
     align-items: center;
     justify-content: center;
     cursor: pointer;
