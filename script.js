@@ -4,7 +4,9 @@ var haihategarn = new Audio("haihategarn.wav");
 let songs_arr = [maiarjtum, maiarjpen, haihategarn];
 
 function stop_playing() {
-    songs_arr.forEach((song) => { song.pause(); } );
+    songs_arr.forEach((song) => { song.pause();
+        song.currentTime = 0
+ } );
 }
 
 $("#maiarjtum").click( () => {
